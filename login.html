@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/logstyle.css">
+    <title>Log In</title>
+</head>
+<body>
+    <header class="header">
+        <div class="home-add-div">
+            <a href="index.html">Home</a>
+        </div>
+    </header>
+    <div class="box">
+        <div class="logo">
+            <h1>Welcome to PostIt!</h1>
+        </div>
+        <div class="inputs">
+            <form id="loginForm" action="index.html">
+                <div class="login-div">
+                    <label for="login">Email</label><br>
+                    <input type="text" id="login" name="login" required><br>
+                </div>
+                <div class="password-div">
+                    <label for="password">Password</label><br />
+                    <input type="password" id="password" name="password" required><br />
+                    <button class="button" id="forgotPassword">Forgot your password?</button>
+                </div>
+                <input type="submit" class="button" id="loginButton" value="Login" />
+                <label for="registerButton">Or make a new account:</label>
+                <input type="submit" class="button" id="registerButton" value="Register"/>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
